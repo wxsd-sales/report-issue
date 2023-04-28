@@ -1,4 +1,4 @@
-# Report Issue Macro Bot
+# Report Issue Macro And Bot
 
 Welcome to our WXSD DEMO Repo! <!-- Keep this here -->
 
