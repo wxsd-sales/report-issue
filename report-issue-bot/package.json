@@ -1,0 +1,38 @@
+{
+  "name": "mindy-bot-refactored",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^5.0.1",
+    "morgan": "~1.9.1",
+    "node-fetch": "^3.3.0",
+    "uuid": "^8.3.2",
+    "webex": "^1.141.0",
+    "ws": "^8.12.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "2.7.1"
+  }
+}

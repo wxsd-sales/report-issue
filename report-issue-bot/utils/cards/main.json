@@ -1,0 +1,80 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Meeting Room Feedback",
+      "weight": "Bolder",
+      "size": "Medium",
+      "horizontalAlignment": "Center"
+    },
+    {
+      "type": "Image",
+      "url": "https://admin.webex.com/images/workspaces/notSet.jpg"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Location:",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "None",
+      "text": "George Bernard Shaw - 1st Floor - Building C",
+      "isSubtle": true,
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Issue Type:",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "None",
+      "text": "Room System Issue",
+      "isSubtle": true,
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "None",
+      "isSubtle": true,
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "None",
+      "isSubtle": true,
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "None",
+      "text": "[Chat via Webex](ciscospark://im?email=wimills@cisco.com)",
+      "isSubtle": true,
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "None",
+      "text": "[Call Work Number +12345657890](tel:+123456789)",
+      "isSubtle": true,
+      "wrap": true
+    }
+  ]
+}
