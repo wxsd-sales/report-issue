@@ -61,6 +61,13 @@ curl --location --request POST 'https://report-issue.wbx.ninja/report-issue-bot-
 
 ### Bot
 
+#### Prerequisites & Dependencies:
+
+- Developed on Windows 11
+- MongoDb (i.e Atlas)
+- Node >18.15.0 (recommended)
+- Other OS and node versions may work but not tested
+
 Open a new terminal window and follow the instructions below to setup the project locally for development/demo.
 
 1. Clone this repository and change directory:
