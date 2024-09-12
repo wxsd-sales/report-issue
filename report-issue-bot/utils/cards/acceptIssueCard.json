@@ -1,0 +1,55 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Please Accept or delete the request within 5 min",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Assign To Me",
+      "style": "positive",
+      "id": "assign",
+      "data": {
+        "assign": "assign",
+        "deviceId": "",
+        "actorId": ""
+      }
+    },
+    {
+      "type": "Action.ShowCard",
+      "title": "Delete",
+      "card": {
+        "type": "AdaptiveCard",
+        "body": [
+          {
+            "type": "TextBlock",
+            "spacing": "None",
+            "text": "Are you sure you wish to delete this feedback?",
+            "isSubtle": false,
+            "wrap": true
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Submit",
+            "title": "Confirm",
+            "id": "delete",
+            "data": {
+              "delete": "delete",
+              "deviceId": "",
+              "actorId": ""
+            }
+          }
+        ],
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+      },
+      "style": "destructive"
+    }
+  ]
+}

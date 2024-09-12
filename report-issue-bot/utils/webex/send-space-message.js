@@ -3,6 +3,9 @@ import mainCard from '../cards/main.json' assert { type: 'json' };
 import handleResponse from '../handle-response.js';
 
 function sendSpaceMessage(roomId, message) {
+
+  const workspaceName = message.identification.contactInforName
+  if (message.identification.contactInforName)
   if (message.name != null) {
     mainCard.body[8].text = 'Reporters Name:';
     mainCard.body[9].text = message.name;

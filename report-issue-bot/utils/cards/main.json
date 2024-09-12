@@ -23,7 +23,7 @@
     {
       "type": "TextBlock",
       "spacing": "None",
-      "text": "George Bernard Shaw - 1st Floor - Building C",
+      "text": "",
       "isSubtle": true,
       "wrap": true
     },
@@ -36,7 +36,7 @@
     {
       "type": "TextBlock",
       "spacing": "None",
-      "text": "Room System Issue",
+      "text": "",
       "isSubtle": true,
       "wrap": true
     },
